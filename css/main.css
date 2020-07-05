@@ -33,7 +33,7 @@ main {
 }
 
 .page-home {
-    width: 90%;
+    width: 80%;
     margin: 12vh auto 5vh;
 }
 
@@ -69,7 +69,7 @@ main {
 
 .nav-items .menu .btn-login {
     position: absolute;
-    top: 2%;
+    top: 1%;
     right: 2%;
     font-size: 1.2rem;
     color: #fff;
@@ -80,6 +80,7 @@ main {
 
 .wrapper {
     margin: 0 auto;
+    width: 100%;
 }
 
 .wrapper-container {
@@ -94,7 +95,7 @@ main {
 }
 
 .wrapper-image-container img {
-    width: 100%;
+    width: 80%;
 }
 
 .wrapper-content {
@@ -124,4 +125,173 @@ main {
     margin: 8% 0;
     padding: 5% 8%;
     border-radius: 8px;
+}
+
+.services {
+    margin: 12% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.service-image-container img {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.service-content li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8%;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.service-content li:last-child {
+    margin-bottom: 0;
+}
+
+.service-content li span {
+    color: var(--red-primary);
+    margin-right: 5%;
+}
+
+.equipe-on {
+    margin: 8% auto 18%;
+    width: 80%;
+    display: grid;
+    justify-content: center;
+}
+
+.equipe-on h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.equipe-on-contato input {
+    width: 100%;
+    padding: 8% 12%;
+    background-color: #ddd;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    color: #333;
+    margin: 8% 0 5%;
+}
+
+.equipe-on-contato input::placeholder {
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.equipe-on-contato .btn-liga {
+    width: 100%;
+    padding: 8% 12%;
+    background-color: var(--red-primary);
+    border-radius: 12px;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.cards {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: .5fr 1.9fr;
+    background-color: #ddd;
+    padding: 8%;
+    gap: 20px;
+    border-radius: 12px;
+    margin: 12px 0;
+}
+
+.card-image-perfil {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--red-primary);
+}
+
+.card-content {
+    max-width: 250px;
+    text-align: left;
+}
+
+.card-content p {
+    width: 100%;
+    font-size: .9rem;
+    line-height: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.card-content .author {
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #333;
+}
+
+.card-content .empresa {
+    color: #333;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    background-color: #000;
+    margin-top: 20%;
+}
+
+.footer-container {
+    min-width: 300px;
+    padding: 8%;
+}
+
+.header-footer {
+    margin: 2% 0;
+    text-align: center;
+}
+
+.header-footer .logotipo-white {
+    color: #fff;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.header-footer p {
+    color: #fff;
+    filter: brightness(90%);
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-bottom: 12%;
+}
+
+.footer-content {
+    text-align: left;
+}
+
+.footer-content h2 {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.footer-content .footer-sobre p {
+    max-width: 200px;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    display: inline-block;
+    margin: 2% 0 5%;
+    filter: brightness(90%);
 }
