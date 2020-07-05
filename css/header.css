@@ -21,6 +21,10 @@
     color: #333;
 }
 
+.nav-items .menu {
+    width: 50%;
+}
+
 .menu ul {
     display: flex;
     justify-content: space-between;
@@ -35,13 +39,15 @@
 
 .nav-items .menu .btn-login {
     position: absolute;
-    top: 1%;
+    top: 3%;
     right: 2%;
     font-size: 1.2rem;
     color: #fff;
     background-color: var(--red-primary);
     padding: 8px;
     border-radius: 5px;
+    width: 200px;
+    text-align: center;
 }
 
 .wrapper {
