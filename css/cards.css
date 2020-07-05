@@ -1,0 +1,52 @@
+.cards {
+    width: 90%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: .5fr 1.9fr;
+    background-color: #ddd;
+    padding: 8%;
+    gap: 20px;
+    border-radius: 12px;
+    margin: 12px 0;
+}
+
+.card-image-perfil {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--red-primary);
+}
+
+.card-content {
+    max-width: 250px;
+    text-align: left;
+}
+
+.card-content p {
+    width: 100%;
+    font-size: .9rem;
+    line-height: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.card-content .author {
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #333;
+}
+
+.card-content .empresa {
+    color: #333;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+}

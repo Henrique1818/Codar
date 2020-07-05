@@ -1,0 +1,96 @@
+footer {
+    width: 100%;
+    background-color: #000;
+    margin-top: 20%;
+}
+
+.footer-container {
+    min-width: 300px;
+    padding: 8%;
+}
+
+.header-footer {
+    margin: 2% 0;
+    text-align: center;
+}
+
+.header-footer .logotipo-white {
+    color: #fff;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.header-footer p {
+    color: #fff;
+    filter: brightness(90%);
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-bottom: 12%;
+}
+
+.footer-content {
+    text-align: left;
+}
+
+.footer-content h2 {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.footer-content .footer-sobre p {
+    max-width: 200px;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    display: inline-block;
+    margin: 2% 0 8%;
+    filter: brightness(90%);
+}
+
+.footer-content .footer-contato {
+    margin-bottom: 8%;
+}
+
+.footer-content .footer-contato h2 {
+    margin-bottom: 8%;
+}
+
+.footer-content .footer-contato p {
+    color: #fff;
+    filter: brightness(90%);
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.footer-content .footer-contato .telefone {
+    margin-top: 4%;
+    display: block;
+    color: #fff;
+    filter: brightness(90%);
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.footer-content .footer-contato .email {
+    display: block;
+    color: #fff;
+    filter: brightness(90%);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-decoration: underline;
+}
+
+.footer-content .footer-redes h2 {
+    margin-bottom: 5%;
+}
+
+.footer-content .footer-redes a i {
+    color: var(--red-primary);
+    font-size: 2rem;
+    margin-right: 4%;
+}
+
+.footer-content .footer-redes a:last-child i {
+    margin-right: 0;
+}

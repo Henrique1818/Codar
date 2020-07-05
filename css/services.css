@@ -1,0 +1,66 @@
+.services {
+    margin: 12% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.service-image-container img {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.service-content li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8%;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.service-content li:last-child {
+    margin-bottom: 0;
+}
+
+.service-content li span {
+    color: var(--red-primary);
+    margin-right: 5%;
+}
+
+.equipe-on {
+    margin: 8% auto 18%;
+    width: 80%;
+    display: grid;
+    justify-content: center;
+}
+
+.equipe-on h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.equipe-on-contato input {
+    width: 100%;
+    padding: 8% 12%;
+    background-color: #ddd;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    color: #333;
+    margin: 8% 0 5%;
+}
+
+.equipe-on-contato input::placeholder {
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.equipe-on-contato .btn-liga {
+    width: 100%;
+    padding: 8% 12%;
+    background-color: var(--red-primary);
+    border-radius: 12px;
+    font-size: 1.2rem;
+    color: #fff;
+}

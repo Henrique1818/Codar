@@ -1,0 +1,95 @@
+.page-home {
+    width: 80%;
+    margin: 12vh auto 5vh;
+}
+
+.nav-items {
+    text-align: center;
+}
+
+.nav-items .logotipo {
+    display: inline-block;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+    color: var(--red-primary);
+    margin-bottom: 5%;
+}
+
+.nav-items .logotipo span {
+    color: #333;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul li a {
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.nav-items .menu .btn-login {
+    position: absolute;
+    top: 1%;
+    right: 2%;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: var(--red-primary);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.wrapper-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.wrapper-image-container {
+    margin-bottom: 5%;
+}
+
+.wrapper-image-container img {
+    width: 80%;
+}
+
+.wrapper-content {
+    margin: 8% 0;
+}
+
+.wrapper-content h2 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #333;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrapper-content h2 span {
+    display: block;
+    color: var(--red-primary);
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+}
+
+.wrapper-content .btn-solicitar {
+    display: inline-block;
+    background-color: var(--red-primary);
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 8% 0;
+    padding: 5% 8%;
+    border-radius: 8px;
+}

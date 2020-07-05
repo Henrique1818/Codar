@@ -1,0 +1,455 @@
+@media (min-width: 375px) {
+    .equipe-on h3 {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 425px) {
+    .menu ul {
+        justify-content: space-around;
+    }
+
+    .nav-items .menu .btn-login {
+        right: 4%;
+    }
+
+    .wrapper-content h2 {
+        font-size: 1.3rem;
+    }
+
+    .wrapper-content h2 span {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    .equipe-on h3 {
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 768px) {
+    .page-home {
+        width: 80%;
+        margin: 8vh auto 12vh;
+    }
+
+    .nav-items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: initial;
+        width: 100%;
+    }
+
+    .nav-items .logotipo {
+        margin-bottom: 0;
+    }
+
+    .menu ul li {
+        margin-right: 8px;
+    }
+
+    .nav-items .menu .btn-login {
+        position: initial;
+        top: 0;
+        right: 0;
+        font-size: 1.2rem;
+        padding: 2% 5%;
+    }
+
+    .wrapper-content h2 {
+        font-size: 2.3rem;
+        line-height: 3rem;
+    }
+
+    .wrapper-content h2 span {
+        display: inline-block;
+        font-size: 5.2rem;
+        line-height: 5rem;
+    }
+
+    .wrapper-content .btn-solicitar {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 3% 8%;
+        border-radius: 18px;
+    }
+
+    .service-content {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 20px;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .service-content li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+        font-size: 1.5rem;
+        color: #333;
+    }
+
+    .equipe-on h3 {
+        display: inline-block;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .equipe-on-contato {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 20px;
+        margin-top: 24px;
+    }
+
+    .equipe-on-contato input {
+        color: #333;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .equipe-on-contato .btn-liga {
+        width: 100%;
+        padding: 8% 12%;
+        background-color: var(--red-primary);
+        border-radius: 12px;
+        font-size: 1.2rem;
+        color: #fff;
+    }
+
+    .cards {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        justify-content: center;
+        align-items: initial;
+        margin: 0 auto;
+    }
+
+    .card {
+        display: grid;
+        padding: 8% 5%;
+        gap: 20px;
+        margin: 0;
+    }
+
+    .card-image-perfil {
+        width: 80px;
+        height: 80px;
+    }
+
+    .card-content {
+        display: grid;
+        align-items: center;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 8%;
+    }
+
+    .header-footer {
+        margin: 0;
+    }
+
+    .header-footer p {
+        margin-bottom: 0;
+    }
+
+    .footer-content h2 {
+        font-size: 2rem;
+    }
+
+    .footer-content .footer-sobre p {
+        max-width: 250px;
+        font-size: 1.2rem;
+        margin: 12px 0 20px;
+    }
+
+    .footer-content .footer-contato p {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    .footer-content .footer-contato .telefone {
+        font-size: 1.2rem;
+    }
+
+    .footer-content .footer-contato .email {
+        font-size: 1.2rem;
+    }
+    .footer-content .footer-redes a i {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .page-home {
+        width: 90%;
+        margin: 8vh auto 12vh;
+    }
+
+    .nav-items .logotipo {
+        font-size: 3.5rem;
+    }
+
+    .menu ul li {
+        margin-right: 12px;
+    }
+
+    .menu ul li a {
+        font-size: 1.5rem;
+    }
+
+    .nav-items .menu .btn-login {
+        font-size: 1.5rem;
+        padding: 2% 5%;
+    }
+
+    .wrapper-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .wrapper-image-container {
+        margin-bottom: 0;
+    }
+
+    .wrapper-content {
+        margin: 0;
+        text-align: left;
+    }
+
+    .wrapper-content h2 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .wrapper-content h2 span {
+        display: block;
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+
+    .services {
+        width: 90%;
+    }
+
+    .service-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        width: 90%;
+    }
+
+    .service-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin: 0;
+    }
+
+    .service-image-container {
+        order: 2;
+    }
+    
+    .service-image-container img {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .equipe-on {
+        margin: 8% auto 18%;
+        width: 80%;
+        display: grid;
+        justify-content: left;
+    }
+
+    .equipe-on h3 {
+        font-size: 2rem;
+        text-align: left;
+    }
+
+    .equipe-on-contato {
+        width: 100%;
+    }
+
+    .footer-container {
+        display: grid;
+        grid-template-columns: 0.4fr 1fr;
+        gap: 20px;
+        padding: 8% 4%;
+    }
+
+    .header-footer {
+        margin: 0;
+        text-align: left;
+    }
+
+    .footer-content {
+        display: flex;
+    }
+
+    .footer-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .footer-content div {
+        margin-right: 2%;
+    }
+
+    .footer-content .footer-sobre p {
+        margin: 0;
+    }
+
+    .footer-content .footer-sobre h2,
+    .footer-content .footer-contato h2,
+    .footer-content .footer-redes h2 {
+        margin-bottom: 8%;
+    }
+
+    .footer-content .footer-contato {
+        margin-bottom: 0;
+    }
+
+    .footer-content div {
+        margin-right: 4%;
+    }
+
+    .cards {
+        gap: 30px;
+        justify-content: center;
+        align-items: initial;
+    }
+
+    .card-image-perfil {
+        width: 90px;
+        height: 90px;
+    }
+
+    .card-content {
+        display: grid;
+        align-items: center;
+        max-width: 550px;
+    }
+
+    .card-content p {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        margin-bottom: 12px;
+    }
+
+    .card-content .author {
+        font-size: 1.8rem;
+    }
+
+    .card-content .empresa {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    main {
+        max-width: 1440px;
+    }
+
+    .wrapper-content h2 {
+        font-size: 2.3rem;
+        line-height: 3rem;
+    }
+
+    .wrapper-content h2 span {
+        display: inline-block;
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+
+    .service-content li {
+        font-size: 2rem;
+    }
+
+    .service-content li span {
+        font-size: 2rem;
+    }
+
+    .equipe-on-contato {
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .equipe-on h3 {
+        font-size: 3rem;
+        text-align: left;
+    }
+    
+    .equipe-on-contato input {
+        font-size: 1.5rem;
+    }
+
+    .equipe-on-contato input::placeholder {
+        font-size: 1.5rem;
+    }
+
+    .equipe-on-contato .btn-liga {
+        font-size: 1.5rem;
+    }
+
+    .cards {
+        gap: 30px;
+        justify-content: center;
+        align-items: initial;
+    }
+
+    .card-image-perfil {
+        width: 90px;
+        height: 90px;
+    }
+
+    .card-content {
+        display: grid;
+        align-items: center;
+        max-width: 550px;
+    }
+
+    .card-content p {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        margin-bottom: 12px;
+    }
+
+    .card-content .author {
+        font-size: 1.8rem;
+    }
+
+    .card-content .empresa {
+        font-size: 1.2rem;
+    }
+
+    .footer-container {
+        max-width: 1440px;
+        display: grid;
+        grid-template-columns: .5fr 1fr;
+        margin: 0 auto;
+    }
+
+    .header-footer {
+        margin: 0;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .footer-content div {
+        margin-right: 8%;
+    }
+}
