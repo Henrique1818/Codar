@@ -94,3 +94,31 @@ footer {
 .footer-content .footer-redes a:last-child i {
     margin-right: 0;
 }
+
+.footer-content .footer-redes a i:hover {
+    animation: giro 1s ease-in .5s;
+    transition: box-shadow 200ms ease-in-out;
+}
+
+
+@keyframes giro {
+    0% {
+        transform: rotate(-180deg);
+        box-shadow: 0 0 0 2px rgba(214, 0, 14, 0.795);
+        border-radius: 8px;
+    }
+
+    50% {
+        transform: rotate(0);
+    }
+
+    75% {
+        transform: rotate(180deg);
+        box-shadow: 0 0 0 2px rgba(214, 0, 14, 0.795);
+        border-radius: 8px;
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}

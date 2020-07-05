@@ -47,6 +47,10 @@
         margin-bottom: 0;
     }
 
+    .nav-items .menu {
+        width: 50%;
+    }
+
     .menu ul li {
         margin-right: 8px;
     }
@@ -233,14 +237,14 @@
     }
 
     .wrapper-content h2 {
-        font-size: 2rem;
-        line-height: 2rem;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
     }
 
     .wrapper-content h2 span {
         display: block;
-        font-size: 5rem;
-        line-height: 5rem;
+        font-size: 4rem;
+        line-height: 4rem;
     }
 
     .services {

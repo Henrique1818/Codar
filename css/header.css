@@ -22,7 +22,7 @@
 }
 
 .nav-items .menu {
-    width: 50%;
+    width: 100%;
 }
 
 .menu ul {
@@ -35,6 +35,23 @@
     color: #333;
     font-size: 1.2rem;
     font-weight: 500;
+    position: relative;
+}
+
+.menu ul li a::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: var(--red-primary);
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+}
+
+.menu ul li a:hover::after {
+    content: "";
+    width: 100%;
+    transition: width 300ms ease-in-out;
 }
 
 .nav-items .menu .btn-login {
@@ -48,11 +65,17 @@
     border-radius: 5px;
     width: 200px;
     text-align: center;
+    transition: background-color 200ms ease;
+}
+
+.nav-items .menu  .btn-login:hover {
+    background-color: rgba(192, 4, 17, 0.911);
 }
 
 .wrapper {
     margin: 0 auto;
     width: 100%;
+    overflow: hidden;
 }
 
 .wrapper-container {
@@ -64,6 +87,7 @@
 
 .wrapper-image-container {
     margin-bottom: 5%;
+    animation: left 1s ease-in .5s;
 }
 
 .wrapper-image-container img {
@@ -72,6 +96,7 @@
 
 .wrapper-content {
     margin: 8% 0;
+    animation: right 1s ease-in .5s;
 }
 
 .wrapper-content h2 {
@@ -98,4 +123,9 @@
     margin: 8% 0;
     padding: 5% 8%;
     border-radius: 8px;
+    transition: background-color 200ms ease-in-out;
+}
+
+.wrapper-content .btn-solicitar:hover {
+    background-color: rgba(192, 4, 17, 0.911);
 }

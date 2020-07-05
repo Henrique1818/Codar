@@ -6,6 +6,10 @@
     width: 80%;
 }
 
+.service-image-container {
+    animation: right 1s ease-in .5s;
+}
+
 .service-image-container img {
     width: 100%;
     margin-bottom: 5%;
@@ -17,6 +21,7 @@
     margin-bottom: 8%;
     font-size: 1.2rem;
     color: #333;
+    animation: left 1s ease-in .5s;
 }
 
 .service-content li:last-child {
@@ -33,6 +38,7 @@
     width: 80%;
     display: grid;
     justify-content: center;
+    animation: left 1s ease-in .5s;
 }
 
 .equipe-on h3 {

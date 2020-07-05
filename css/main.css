@@ -14,3 +14,21 @@ main {
     min-width: 300px;
     margin: 0 auto;
 }
+
+@keyframes right {
+    0% {
+        transform: translateX(40px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes left {
+    0% {
+        transform: translateX(-40px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
