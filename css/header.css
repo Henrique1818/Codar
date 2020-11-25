@@ -1,77 +1,98 @@
-.page-home {
-    width: 80%;
-    margin: 12vh auto 5vh;
-}
-
-.nav-items {
-    text-align: center;
-}
-
-.nav-items .logotipo {
-    display: inline-block;
-    font-size: 3rem;
-    font-style: italic;
-    font-weight: 700;
-    text-align: center;
-    color: var(--red-primary);
-    margin-bottom: 5%;
-}
-
-.nav-items .logotipo span {
-    color: #333;
-}
-
-.nav-items .menu {
+header {
+    min-width: 300px;
     width: 100%;
-}
+    margin: 32px auto;
 
-.menu ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.menu ul li a {
-    color: #333;
-    font-size: 1.2rem;
-    font-weight: 500;
     position: relative;
 }
 
-.menu ul li a::after {
-    content: "";
-    width: 0;
-    height: 2px;
-    background-color: var(--red-primary);
-    position: absolute;
-    bottom: -4px;
-    left: 0;
-}
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
-.menu ul li a:hover::after {
-    content: "";
     width: 100%;
-    transition: width 300ms ease-in-out;
 }
 
-.nav-items .menu .btn-login {
+.logotipo {
+    color: var(--red-primary);
+    font-size: 3.2rem;
+    line-height: 4rem;
+    font-weight: bold;
+    font-style: italic;
+
+    margin-top: 32px;
+}
+
+.logotipo span {
+    color: #333;
+}
+
+.btn-menu {
+    width: 36px;
+    height: 40px;
     position: absolute;
-    top: 3%;
-    right: 2%;
-    font-size: 1.2rem;
-    color: #fff;
-    background-color: var(--red-primary);
-    padding: 8px;
-    border-radius: 5px;
-    width: 200px;
-    text-align: center;
-    transition: background-color 200ms ease;
+    top: 0;
+    right: 14px;
+    cursor: pointer;
+    overflow: hidden;
+
+    transition: all 400ms ease-in-out;
 }
 
-.nav-items .menu  .btn-login:hover {
-    background-color: rgba(192, 4, 17, 0.911);
+.btn-menu .one, .btn-menu .two, .btn-menu .three {
+    width: 25px;
+    height: 4px;
+    background: var(--red-primary);
+    border-radius: 12px;
+    transition: all 500ms ease-in-out;
 }
 
+.btn-menu .one {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.btn-menu .two {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.btn-menu .three {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+.btn-menu.action .one {
+    transform: translateX(50px);
+    background: transparent;
+    right: 20px;
+}
+
+.btn-menu.action .two {
+    transform: rotate(45deg) translate(11px, -1px);
+    right: 20px;
+}
+
+.btn-menu.action .three {
+    transform: rotate(-45deg) translate(7px, 4px);
+    right: 20px;
+}
+
+.navbar.show {
+    background-color: #333;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+}
+
+
+/* wrapper */
 .wrapper {
     margin: 0 auto;
     width: 100%;
