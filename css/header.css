@@ -5,7 +5,7 @@ body.hide{
 header {
     min-width: 300px;
     width: 100%;
-    margin: 32px auto;
+    margin: 12px auto;
 
     position: relative;
 }
@@ -78,7 +78,7 @@ header {
 }
 
 .btn-menu.action {
-    top: 32px;
+    top: 10px;
 }
 
 .btn-menu.action .one {
@@ -207,4 +207,68 @@ header {
 
 .wrapper-content .btn-solicitar:hover {
     background-color: rgba(192, 4, 17, 0.911);
+}
+
+
+/* Responsive */
+@media (min-width: 700px) {
+    .navbar {
+        width: 90%;
+        margin: 0 auto;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu .btn-menu {
+        display: none;
+    }
+
+    .navbar .navbar-items {
+        display: flex;
+        box-sizing: border-box;
+    }
+
+    .logotipo {
+        margin-top: 0;
+        font-size: 2.2rem;
+    }
+
+    .navbar-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-items li a {
+        margin-right: 26px;
+        color: #333;
+        font-size: 1rem;
+        transition: all 400ms ease-in-out;
+    }
+
+    .navbar-items li a:hover {
+        border-radius: 8px;
+        border: 2px solid var(--red-primary);
+        padding: 0 12px;
+        transition: all 400ms ease-in-out;
+    }
+
+    .navbar-items .btn-login {
+        color: #fff;
+        background-color: var(--red-primary);
+        border-radius: 8px;
+        padding: 8px 32px;
+        font-size: 1rem;
+    }
+
+    .navbar-items .btn-login:hover {
+        border: 2px solid var(--red-primary);
+        border-radius: 8px;
+        color: var(--red-primary);
+        background-color: transparent;
+        transition: all 400ms ease-in-out;
+    }
 }
