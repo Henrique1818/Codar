@@ -69,6 +69,14 @@ header {
     right: 10px;
 }
 
+.navbar .navbar-items {
+    display: none;
+}
+
+.navbar.show .navbar-items {
+    display: inline-block;
+}
+
 .btn-menu.action {
     top: 32px;
 }
