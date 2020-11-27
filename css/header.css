@@ -150,66 +150,6 @@ header {
     transition: all 400ms ease-in-out;
 }
 
-/* wrapper */
-.wrapper {
-    margin: 0 auto;
-    width: 100%;
-    overflow: hidden;
-}
-
-.wrapper-container {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.wrapper-image-container {
-    margin-bottom: 5%;
-    animation: left 1s ease-in .5s;
-}
-
-.wrapper-image-container img {
-    width: 80%;
-}
-
-.wrapper-content {
-    margin: 8% 0;
-    animation: right 1s ease-in .5s;
-}
-
-.wrapper-content h2 {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    color: #333;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.wrapper-content h2 span {
-    display: block;
-    color: var(--red-primary);
-    font-size: 2.5rem;
-    line-height: 2.5rem;
-    font-weight: bold;
-}
-
-.wrapper-content .btn-solicitar {
-    display: inline-block;
-    background-color: var(--red-primary);
-    color: #fff;
-    font-size: 1.2rem;
-    margin: 8% 0;
-    padding: 5% 8%;
-    border-radius: 8px;
-    transition: background-color 200ms ease-in-out;
-}
-
-.wrapper-content .btn-solicitar:hover {
-    background-color: rgba(192, 4, 17, 0.911);
-}
-
-
 /* Responsive */
 @media (min-width: 700px) {
     .navbar {
